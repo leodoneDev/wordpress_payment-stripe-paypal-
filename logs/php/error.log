@@ -1,0 +1,27 @@
+[04-Apr-2025 14:22:44 UTC] Invalid product slug provided "suremails", does not match bsf_product_slugs
+[04-Apr-2025 14:25:00 UTC] webhook
+[04-Apr-2025 14:25:00 UTC] rewrite
+[04-Apr-2025 14:28:10 UTC] PHP Warning:  Undefined array key 3 in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1526
+[04-Apr-2025 14:28:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1525
+[04-Apr-2025 14:28:10 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1525
+[04-Apr-2025 14:28:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1529
+[04-Apr-2025 14:28:10 UTC] PHP Warning:  Undefined array key "blockName" in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1534
+[04-Apr-2025 14:28:10 UTC] PHP Warning:  Undefined array key 4 in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1526
+[04-Apr-2025 14:28:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1525
+[04-Apr-2025 14:28:10 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1525
+[04-Apr-2025 14:28:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1529
+[04-Apr-2025 14:28:10 UTC] PHP Warning:  Undefined array key "blockName" in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1534
+[04-Apr-2025 14:28:11 UTC] PHP Warning:  Undefined array key 3 in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1526
+[04-Apr-2025 14:28:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1525
+[04-Apr-2025 14:28:11 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1525
+[04-Apr-2025 14:28:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1529
+[04-Apr-2025 14:28:11 UTC] PHP Warning:  Undefined array key "blockName" in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1534
+[04-Apr-2025 14:28:11 UTC] PHP Warning:  Undefined array key 4 in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1526
+[04-Apr-2025 14:28:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1525
+[04-Apr-2025 14:28:11 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1525
+[04-Apr-2025 14:28:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1529
+[04-Apr-2025 14:28:11 UTC] PHP Warning:  Undefined array key "blockName" in C:\Users\smart\Local Sites\khams-payment\app\public\wp-includes\blocks.php on line 1534
+[04-Apr-2025 15:12:23 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-content\plugins\surecart\packages\blocks-next\build\blocks\cart\controller.php on line 3
+[04-Apr-2025 15:12:23 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-content\plugins\surecart\packages\blocks-next\build\blocks\cart\view.php on line 6
+[04-Apr-2025 15:17:15 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-content\plugins\surecart\packages\blocks-next\build\blocks\cart\controller.php on line 3
+[04-Apr-2025 15:17:15 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-content\plugins\surecart\packages\blocks-next\build\blocks\cart\view.php on line 6
