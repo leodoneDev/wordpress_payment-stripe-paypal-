@@ -1,0 +1,1324 @@
+2025-04-04T15:36:35+00:00 INFO generate_signup_link
+2025-04-04T15:36:37+00:00 INFO Response Code: 200
+2025-04-04T15:36:37+00:00 INFO Response Message: OK
+2025-04-04T15:36:37+00:00 INFO Response Body: {"body":"{\"links\":[{\"href\":\"https:\/\/api.paypal.com\/v2\/customer\/partner-referrals\/ZWU4OTlkZDAtZmVmYS00ZGNjLWExNTYtMWUzMjEyNTgxYmMwRVluOGNmeTl0VUZ3VVFQVWxDK1E4dWY1bmFMNGxuYWcvSVlGTFNZSTk0ST12Mg==\",\"rel\":\"self\",\"method\":\"GET\",\"description\":\"Read Referral Data shared by the Caller.\"},{\"href\":\"https:\/\/www.paypal.com\/bizsignup\/partner\/entry?referralToken=ZWU4OTlkZDAtZmVmYS00ZGNjLWExNTYtMWUzMjEyNTgxYmMwRVluOGNmeTl0VUZ3VVFQVWxDK1E4dWY1bmFMNGxuYWcvSVlGTFNZSTk0ST12Mg==\",\"rel\":\"action_url\",\"method\":\"GET\",\"description\":\"Target WEB REDIRECT URL for the next action. Customer should be redirected to this URL in the browser.\"}]}","headers":"HTTP\/1.1 201 Created\r\nConnection: keep-alive\r\nContent-Length: 611\r\nset-cookie: ts_c=vr%3D017264421960aa6a50900e59fffe3db8%26vt%3D017264421960aa6a50900e59fffe3db9; Domain=.paypal.com; Path=\/; Expires=Tue, 04 Apr 2028 09:02:53 GMT; Secure; SameSite=None\r\nset-cookie: l7_az=ccg14.slc; Path=\/; Domain=paypal.com; Expires=Fri, 04 Apr 2025 16:06:36 GMT; HttpOnly; Secure\r\naccess-control-expose-headers: Server-Timing\r\nserver-timing: traceparent;desc=\"00-000000000000000000070c8ad0b57cc6-94ef8111babde428-01\"\r\ncache-control: max-age=0, no-cache, no-store, must-revalidate\r\npaypal-debug-id: 70c8ad0b57cc6\r\ntraceparent: 00-000000000000000000070c8ad0b57cc6-2fb2b33de3464f23-01\r\netag: W\/\"263-F8uC4xz8Kz2ODJGv\/Ts\/HvDqjHs\"\r\ncontent-type: application\/json;charset=utf-8\r\nAccept-Ranges: bytes\r\nVia: 1.1 varnish, 1.1 varnish\r\nEdge-Control: max-age=0\r\nDate: Fri, 04 Apr 2025 15:36:36 GMT\r\nStrict-Transport-Security: max-age=63072000; includeSubDomains; preload\r\nX-Served-By: cache-lhr-egll1980090-LHR, cache-lhr-egll1980090-LHR, cache-lcy-eglc8600031-LCY\r\nX-Cache: MISS, MISS, MISS\r\nX-Cache-Hits: 0, 0, 0\r\nX-Timer: S1743780996.040351,VS0,VE736\r\nVary: Accept-Encoding\r\n\r\n","http_code":201,"result":"success"}
+2025-04-04T15:36:37+00:00 INFO generate_signup_link
+2025-04-04T15:36:39+00:00 INFO Response Code: 200
+2025-04-04T15:36:39+00:00 INFO Response Message: OK
+2025-04-04T15:36:39+00:00 INFO Response Body: {"body":"{\"links\":[{\"href\":\"https:\/\/api.sandbox.paypal.com\/v2\/customer\/partner-referrals\/NDYxYjNmNjYtMzYxMy00YmRjLWI3Y2ItNjk2ZTE1NTE2MDRleXh2ZkVjWTJHUTNSazlyTlRrcFU4OWtsSVdkczM1WG1xZXpJT0toWnlXST12Mg==\",\"rel\":\"self\",\"method\":\"GET\",\"description\":\"Read Referral Data shared by the Caller.\"},{\"href\":\"https:\/\/www.sandbox.paypal.com\/bizsignup\/partner\/entry?referralToken=NDYxYjNmNjYtMzYxMy00YmRjLWI3Y2ItNjk2ZTE1NTE2MDRleXh2ZkVjWTJHUTNSazlyTlRrcFU4OWtsSVdkczM1WG1xZXpJT0toWnlXST12Mg==\",\"rel\":\"action_url\",\"method\":\"GET\",\"description\":\"Target WEB REDIRECT URL for the next action. Customer should be redirected to this URL in the browser.\"}]}","headers":"HTTP\/1.1 201 Created\r\nConnection: keep-alive\r\nContent-Length: 627\r\nset-cookie: ts_c=vr%3D01726d891960a605b2bcb715ffffea44%26vt%3D01726d891960a605b2bcb715ffffea45; Domain=.paypal.com; Path=\/; Expires=Tue, 04 Apr 2028 09:02:55 GMT; Secure; SameSite=None; HttpOnly\r\ncontent-type: application\/json;charset=utf-8\r\ncache-control: max-age=0, no-cache, no-store, must-revalidate\r\nserver-timing: traceparent;desc=\"00-0000000000000000000f51611352efb9-98cbc555224ce1a8-01\"\r\naccess-control-expose-headers: Server-Timing\r\nstrict-transport-security: max-age=31536000; includeSubDomains\r\npaypal-debug-id: f51611352efb9\r\netag: W\/\"273-vukgWEG9VleXwSbZgwQRiJnObVw\"\r\ntraceparent: 00-0000000000000000000f51611352efb9-f8bee5b5d0150900-01\r\nhttp_x_pp_az_locator: ccg18.slc\r\nserver: nginx\r\nx-backend-info: v=1;name=2k1u3gOGb2cebCyZJujTUN--F_ccg18_wju_origin_api_m_2_sandbox_paypal_com;ip=34.106.111.220;port=443;ssl=1;max=200;ka_ns=0;tka_s=300;tki_s=10;tkp=3;host=api-m.sandbox.paypal.com;min_tls=;max_tls=;sni=edge.sandbox.paypal.com;cert_host=edge.sandbox.paypal.com;ciphers=;check_cert=1;no_reneg=1;to_ns=1000000000;fbto_ns=59000000000;bbto_ns=10000000000;fto_ns=0\r\nAccept-Ranges: bytes\r\nVia: 1.1 varnish, 1.1 varnish\r\nEdge-Control: max-age=0\r\nDate: Fri, 04 Apr 2025 15:36:38 GMT\r\nX-Served-By: cache-lhr-egll1980043-LHR, cache-lhr-egll1980032-LHR, cache-lcy-eglc8600056-LCY\r\nX-Cache: MISS, MISS, MISS\r\nX-Cache-Hits: 0, 0, 0\r\nX-Timer: S1743780998.396225,VS0,VE492\r\nVary: Accept-Encoding\r\n\r\n","http_code":201,"result":"success"}
+2025-04-04T15:39:51+00:00 INFO generate_signup_link
+2025-04-04T15:39:53+00:00 INFO Response Code: 200
+2025-04-04T15:39:53+00:00 INFO Response Message: OK
+2025-04-04T15:39:53+00:00 INFO Response Body: {"body":"{\"links\":[{\"href\":\"https:\/\/api.paypal.com\/v2\/customer\/partner-referrals\/NmNkMzZmYTEtNTc5ZS00MTk4LWI2NmYtMzI0MDEwOWVkYzc1YjE0MGViVlQ2Q2ZYM2ZZWlg4SnIrTVBDTERZekprTXdQN0tOdDhlWnB1VT12Mg==\",\"rel\":\"self\",\"method\":\"GET\",\"description\":\"Read Referral Data shared by the Caller.\"},{\"href\":\"https:\/\/www.paypal.com\/bizsignup\/partner\/entry?referralToken=NmNkMzZmYTEtNTc5ZS00MTk4LWI2NmYtMzI0MDEwOWVkYzc1YjE0MGViVlQ2Q2ZYM2ZZWlg4SnIrTVBDTERZekprTXdQN0tOdDhlWnB1VT12Mg==\",\"rel\":\"action_url\",\"method\":\"GET\",\"description\":\"Target WEB REDIRECT URL for the next action. Customer should be redirected to this URL in the browser.\"}]}","headers":"HTTP\/1.1 201 Created\r\nConnection: keep-alive\r\nContent-Length: 611\r\nset-cookie: ts_c=vr%3D01756234196645baf3500db9fff8ef42%26vt%3D01756234196645baf3500db9fff8ef43; Domain=.paypal.com; Path=\/; Expires=Tue, 04 Apr 2028 09:06:09 GMT; Secure; SameSite=None\r\nset-cookie: l7_az=ccg01.phx; Path=\/; Domain=paypal.com; Expires=Fri, 04 Apr 2025 16:09:52 GMT; HttpOnly; Secure\r\naccess-control-expose-headers: Server-Timing\r\nserver-timing: traceparent;desc=\"00-000000000000000000045b644d718644-20c77438d5fa8fc2-01\"\r\ncache-control: max-age=0, no-cache, no-store, must-revalidate\r\npaypal-debug-id: 45b644d718644\r\ntraceparent: 00-000000000000000000045b644d718644-da55f9192ca0b191-01\r\netag: W\/\"263-KXxhHv94n2furLV7dIBkZaPyyGQ\"\r\ncontent-type: application\/json;charset=utf-8\r\nAccept-Ranges: bytes\r\nVia: 1.1 varnish, 1.1 varnish\r\nEdge-Control: max-age=0\r\nDate: Fri, 04 Apr 2025 15:39:52 GMT\r\nStrict-Transport-Security: max-age=63072000; includeSubDomains; preload\r\nX-Served-By: cache-lhr-egll1980083-LHR, cache-lhr-egll1980083-LHR, cache-lon420124-LON\r\nX-Cache: MISS, MISS, MISS\r\nX-Cache-Hits: 0, 0, 0\r\nX-Timer: S1743781192.060701,VS0,VE639\r\nVary: Accept-Encoding\r\n\r\n","http_code":201,"result":"success"}
+2025-04-04T15:39:53+00:00 INFO generate_signup_link
+2025-04-04T15:39:54+00:00 INFO Response Code: 200
+2025-04-04T15:39:54+00:00 INFO Response Message: OK
+2025-04-04T15:39:54+00:00 INFO Response Body: {"body":"{\"links\":[{\"href\":\"https:\/\/api.sandbox.paypal.com\/v2\/customer\/partner-referrals\/NTZhMDU3OGQtZDI1My00MzI5LTk3NGUtYzA3M2UxZjM0MjQ3SVd3eWQ2UnVXbm1zNDdxYWZzdzFoc09WYTRtTWMvOHQzOXJPMnFZRmlTbz12Mg==\",\"rel\":\"self\",\"method\":\"GET\",\"description\":\"Read Referral Data shared by the Caller.\"},{\"href\":\"https:\/\/www.sandbox.paypal.com\/bizsignup\/partner\/entry?referralToken=NTZhMDU3OGQtZDI1My00MzI5LTk3NGUtYzA3M2UxZjM0MjQ3SVd3eWQ2UnVXbm1zNDdxYWZzdzFoc09WYTRtTWMvOHQzOXJPMnFZRmlTbz12Mg==\",\"rel\":\"action_url\",\"method\":\"GET\",\"description\":\"Target WEB REDIRECT URL for the next action. Customer should be redirected to this URL in the browser.\"}]}","headers":"HTTP\/1.1 201 Created\r\nConnection: keep-alive\r\nContent-Length: 627\r\nset-cookie: ts_c=vr%3D017568901960a609f95e2d07ffffea92%26vt%3D017568901960a609f95e2d07ffffea93; Domain=.paypal.com; Path=\/; Expires=Tue, 04 Apr 2028 09:06:11 GMT; Secure; SameSite=None; HttpOnly\r\ncontent-type: application\/json;charset=utf-8\r\ncache-control: max-age=0, no-cache, no-store, must-revalidate\r\nserver-timing: traceparent;desc=\"00-0000000000000000000f744468f01a6f-22c3da1058a88dec-01\"\r\naccess-control-expose-headers: Server-Timing\r\nstrict-transport-security: max-age=31536000; includeSubDomains\r\npaypal-debug-id: f744468f01a6f\r\netag: W\/\"273-J5JPtOGEpZ1IQRwqBMvWsVxt8aI\"\r\ntraceparent: 00-0000000000000000000f744468f01a6f-a87dc148ac0fba66-01\r\nhttp_x_pp_az_locator: ccg18.slc\r\nserver: nginx\r\nx-backend-info: v=1;name=2k1u3gOGb2cebCyZJujTUN--F_ccg18_wju_origin_api_m_1_sandbox_paypal_com;ip=34.106.238.133;port=443;ssl=1;max=200;ka_ns=0;tka_s=300;tki_s=10;tkp=3;host=api-m.sandbox.paypal.com;min_tls=;max_tls=;sni=edge.sandbox.paypal.com;cert_host=edge.sandbox.paypal.com;ciphers=;check_cert=1;no_reneg=1;to_ns=1000000000;fbto_ns=59000000000;bbto_ns=10000000000;fto_ns=0\r\nAccept-Ranges: bytes\r\nVia: 1.1 varnish, 1.1 varnish\r\nEdge-Control: max-age=0\r\nDate: Fri, 04 Apr 2025 15:39:54 GMT\r\nX-Served-By: cache-lhr-egll1980035-LHR, cache-lhr-egll1980032-LHR, cache-lon4277-LON\r\nX-Cache: MISS, MISS, MISS\r\nX-Cache-Hits: 0, 0, 0\r\nX-Timer: S1743781194.739178,VS0,VE472\r\nVary: Accept-Encoding\r\n\r\n","http_code":201,"result":"success"}
+2025-04-04T15:40:20+00:00 INFO generate_signup_link
+2025-04-04T15:40:22+00:00 INFO Response Code: 200
+2025-04-04T15:40:22+00:00 INFO Response Message: OK
+2025-04-04T15:40:22+00:00 INFO Response Body: {"body":"{\"links\":[{\"href\":\"https:\/\/api.paypal.com\/v2\/customer\/partner-referrals\/ZmVjZWY4YzktYTQ1YS00YWUzLTkzNGItZTZjMTQ2ZDdiMWE0em9vR0E2dFBhYTVPZ1pmWkFnNW5oLzNqMm9EZS9UTG1nSVA5Q3E2QjZkZz12Mg==\",\"rel\":\"self\",\"method\":\"GET\",\"description\":\"Read Referral Data shared by the Caller.\"},{\"href\":\"https:\/\/www.paypal.com\/bizsignup\/partner\/entry?referralToken=ZmVjZWY4YzktYTQ1YS00YWUzLTkzNGItZTZjMTQ2ZDdiMWE0em9vR0E2dFBhYTVPZ1pmWkFnNW5oLzNqMm9EZS9UTG1nSVA5Q3E2QjZkZz12Mg==\",\"rel\":\"action_url\",\"method\":\"GET\",\"description\":\"Target WEB REDIRECT URL for the next action. Customer should be redirected to this URL in the browser.\"}]}","headers":"HTTP\/1.1 201 Created\r\nConnection: keep-alive\r\nContent-Length: 611\r\nset-cookie: ts_c=vr%3D0175d5b4196647c5810b8c3cfff6f20e%26vt%3D0175d5b4196647c5810b8c3cfff6f20f; Domain=.paypal.com; Path=\/; Expires=Tue, 04 Apr 2028 09:06:39 GMT; Secure; SameSite=None\r\nset-cookie: l7_az=ccg13.slc; Path=\/; Domain=paypal.com; Expires=Fri, 04 Apr 2025 16:10:22 GMT; HttpOnly; Secure\r\naccess-control-expose-headers: Server-Timing\r\nserver-timing: traceparent;desc=\"00-00000000000000000002666b6b63d097-620e118ad54247de-01\"\r\ncache-control: max-age=0, no-cache, no-store, must-revalidate\r\npaypal-debug-id: 2666b6b63d097\r\ntraceparent: 00-00000000000000000002666b6b63d097-1c18c76514ba1e53-01\r\netag: W\/\"263-k\/Qt1cGfhr0yWR0toHTh6R9\/pNo\"\r\ncontent-type: application\/json;charset=utf-8\r\nAccept-Ranges: bytes\r\nVia: 1.1 varnish, 1.1 varnish\r\nEdge-Control: max-age=0\r\nDate: Fri, 04 Apr 2025 15:40:22 GMT\r\nStrict-Transport-Security: max-age=63072000; includeSubDomains; preload\r\nX-Served-By: cache-lhr-egll1980035-LHR, cache-lhr-egll1980035-LHR, cache-lon4258-LON\r\nX-Cache: MISS, MISS, MISS\r\nX-Cache-Hits: 0, 0, 0\r\nX-Timer: S1743781222.683569,VS0,VE635\r\nVary: Accept-Encoding\r\n\r\n","http_code":201,"result":"success"}
+2025-04-04T15:40:22+00:00 INFO generate_signup_link
+2025-04-04T15:40:24+00:00 INFO Response Code: 200
+2025-04-04T15:40:24+00:00 INFO Response Message: OK
+2025-04-04T15:40:24+00:00 INFO Response Body: {"body":"{\"links\":[{\"href\":\"https:\/\/api.sandbox.paypal.com\/v2\/customer\/partner-referrals\/OWU5MGUzODQtOTRiYi00YjhmLTgyNDktZWEyMWRhNmJlZDQwdUFYcG5WVzN4ZkNwMS9hL1lXeWxYc0dlcGxCakRlOHBRL0d0bzY1WmNiST12Mg==\",\"rel\":\"self\",\"method\":\"GET\",\"description\":\"Read Referral Data shared by the Caller.\"},{\"href\":\"https:\/\/www.sandbox.paypal.com\/bizsignup\/partner\/entry?referralToken=OWU5MGUzODQtOTRiYi00YjhmLTgyNDktZWEyMWRhNmJlZDQwdUFYcG5WVzN4ZkNwMS9hL1lXeWxYc0dlcGxCakRlOHBRL0d0bzY1WmNiST12Mg==\",\"rel\":\"action_url\",\"method\":\"GET\",\"description\":\"Target WEB REDIRECT URL for the next action. Customer should be redirected to this URL in the browser.\"}]}","headers":"HTTP\/1.1 201 Created\r\nConnection: keep-alive\r\nContent-Length: 627\r\nset-cookie: ts_c=vr%3D0175dc4d1960a606c2f19669ffffea22%26vt%3D0175dc4d1960a606c2f19669ffffea23; Domain=.paypal.com; Path=\/; Expires=Tue, 04 Apr 2028 09:06:40 GMT; Secure; SameSite=None; HttpOnly\r\ncontent-type: application\/json;charset=utf-8\r\ncache-control: max-age=0, no-cache, no-store, must-revalidate\r\nserver-timing: traceparent;desc=\"00-0000000000000000000f967796495ebf-22e77cb485d5aa11-01\"\r\naccess-control-expose-headers: Server-Timing\r\nstrict-transport-security: max-age=31536000; includeSubDomains\r\npaypal-debug-id: f967796495ebf\r\netag: W\/\"273-s5z5Zb8te2RwQPsIKNzBv0yY0XY\"\r\ntraceparent: 00-0000000000000000000f967796495ebf-bce65d3adc2121be-01\r\nhttp_x_pp_az_locator: ccg18.slc\r\nserver: nginx\r\nx-backend-info: v=1;name=2k1u3gOGb2cebCyZJujTUN--F_ccg18_wju_origin_api_m_1_sandbox_paypal_com;ip=34.106.238.133;port=443;ssl=1;max=200;ka_ns=0;tka_s=300;tki_s=10;tkp=3;host=api-m.sandbox.paypal.com;min_tls=;max_tls=;sni=edge.sandbox.paypal.com;cert_host=edge.sandbox.paypal.com;ciphers=;check_cert=1;no_reneg=1;to_ns=1000000000;fbto_ns=59000000000;bbto_ns=10000000000;fto_ns=0\r\nAccept-Ranges: bytes\r\nVia: 1.1 varnish, 1.1 varnish\r\nEdge-Control: max-age=0\r\nDate: Fri, 04 Apr 2025 15:40:23 GMT\r\nX-Served-By: cache-lhr-egll1980086-LHR, cache-lhr-egll1980086-LHR, cache-lon4264-LON\r\nX-Cache: MISS, MISS, MISS\r\nX-Cache-Hits: 0, 0, 0\r\nX-Timer: S1743781223.355854,VS0,VE447\r\nVary: Accept-Encoding\r\n\r\n","http_code":201,"result":"success"}
+2025-04-04T15:42:20+00:00 INFO wpg_login_seller
+2025-04-04T15:42:20+00:00 INFO wpg_get_credentials
+2025-04-04T15:42:20+00:00 INFO wpg_get_access_token
+2025-04-04T15:42:20+00:00 INFO get_access_token : https://api-m.sandbox.paypal.com/v1/oauth2/token/
+2025-04-04T15:42:21+00:00 INFO Response Code: 200
+2025-04-04T15:42:21+00:00 INFO Response Message: OK
+2025-04-04T15:42:21+00:00 INFO Response Body: {"scope":"https://uri.paypal.com/services/payments/initiatepayment openid https://uri.paypal.com/services/subscriptions","access_token":"A23AAJzuDdNvOCIKGMMBBzIFrU5HL_Q8ef3QsAQvssLSnYYKONEziOj9wklLgsmH4_bot4Pr1G4yftmp5Rpvcal6L9el7it8g","token_type":"Bearer","expires_in":28800,"refresh_token":"R23.AAIpgHWWnvEKVvsJqtaaudHpMeqOXoXJm98mIC6S6Whqf29qm322gmaZ5oE213mHI0aeFBAsP3H5jkf6oUm9hOjXSS6zN2XCc_RvoAPZ46FdmhZxdbP2mavxZrZuKvSAlnA-SMUBMx8jIoebVC0","nonce":"2025-04-04T15:42:08ZJAoDOKsevUJKUovfxSy8BiVWr5T0lbd-jVJI9dyK-SI"}
+2025-04-04T15:42:21+00:00 INFO wpg_get_seller_rest_api_credentials
+2025-04-04T15:42:21+00:00 INFO get_credentials : https://api-m.sandbox.paypal.com/v1/customer/partners/K6QLN2LPGQRHL/merchant-integrations/credentials/
+2025-04-04T15:42:23+00:00 INFO Response Code: 200
+2025-04-04T15:42:23+00:00 INFO Response Message: OK
+2025-04-04T15:42:23+00:00 INFO Response Body: {"client_id":"BAAQyqDV2ZbMLnOV_PwveNaUjwBPn90EoACbagTEruiHTaMpFzjA3XNF7vDc1-BIBGjNqsEKxI0PeuNpcQ","client_secret":"ELnMmBQwTn-BuMOf9HPaHWx5WrKOKNiaJlf7VBHvpGVBMGg-_Na4lVsrv0EFqNNYYppPAHByJX_-bJuM","payer_id":"UF228RJF3R8B6"}
+2025-04-04T15:42:27+00:00 INFO Get access token Request: https://api.sandbox.paypal.com/v1/oauth2/token/
+2025-04-04T15:42:27+00:00 INFO Response Code: 200
+2025-04-04T15:42:27+00:00 INFO Response Message: OK
+2025-04-04T15:42:27+00:00 INFO Response Body: Array
+(
+    [scope] => https://uri.paypal.com/services/checkout/one-click-with-merchant-issued-token https://uri.paypal.com/services/payments/partnerfee https://uri.paypal.com/services/payments/futurepayments https://uri.paypal.com/services/invoicing https://uri.paypal.com/services/vault/payment-tokens/read https://uri.paypal.com/services/disputes/read-buyer https://uri.paypal.com/services/payments/realtimepayment https://uri.paypal.com/services/disputes/update-seller https://uri.paypal.com/services/payments/payment/authcapture openid https://uri.paypal.com/services/disputes/read-seller Braintree:Vault https://uri.paypal.com/services/payments/refund https://api.paypal.com/v1/vault/credit-card https://api.paypal.com/v1/payments/.* https://uri.paypal.com/services/reporting/search/read https://uri.paypal.com/services/payments/initiatepayment https://uri.paypal.com/payments/payouts https://uri.paypal.com/services/vault/payment-tokens/readwrite https://api.paypal.com/v1/vault/credit-card/.* https://uri.paypal.com/services/shipping/trackers/readwrite https://uri.paypal.com/services/subscriptions https://uri.paypal.com/services/applications/webhooks
+    [access_token] => A21AAJKTML7jLO-sprYYQurxgBpeYDB8K2y4t3PWPI0titOu0u974B0H87h6B02PhqAuqeNxk0LQshcuC5G4ty8Tqx2X6tDMg
+    [token_type] => Bearer
+    [app_id] => APP-91K71693J82624440
+    [expires_in] => 32400
+    [nonce] => 2025-04-04T15:42:27Z_dKgjssCQN1BuQPWvPLpXiMZHOxUnc-Zgoe41nfCHc4
+)
+
+2025-04-04T15:42:29+00:00 INFO function called: ppcp_create_webhooks_request
+2025-04-04T15:42:29+00:00 INFO Response Code: 201
+2025-04-04T15:42:29+00:00 INFO Response Message: Created
+2025-04-04T15:42:29+00:00 INFO Response Body: Array
+(
+    [id] => 98T77365187292540
+    [url] => https://khams-payment.local/wc-api/PPCP_Paypal_Checkout_For_Woocommerce_Button_Manager/?ppcp_action=webhook_handler&utm_nooverride=1
+    [event_types] => Array
+        (
+            [0] => Array
+                (
+                    [name] => CHECKOUT.ORDER.APPROVED
+                    [description] => An order has been approved by buyer.
+                )
+
+            [1] => Array
+                (
+                    [name] => PAYMENT.AUTHORIZATION.CREATED
+                    [description] => A payment authorization is created, approved, executed, or a future payment authorization is created.
+                )
+
+            [2] => Array
+                (
+                    [name] => PAYMENT.AUTHORIZATION.VOIDED
+                    [description] => A payment authorization is voided.
+                )
+
+            [3] => Array
+                (
+                    [name] => PAYMENT.CAPTURE.COMPLETED
+                    [description] => A payment capture completes.
+                )
+
+            [4] => Array
+                (
+                    [name] => PAYMENT.CAPTURE.DENIED
+                    [description] => A payment capture is denied.
+                )
+
+            [5] => Array
+                (
+                    [name] => PAYMENT.CAPTURE.PENDING
+                    [description] => The state of a payment capture changes to pending.
+                )
+
+            [6] => Array
+                (
+                    [name] => PAYMENT.CAPTURE.REFUNDED
+                    [description] => A merchant refunds a payment capture.
+                )
+
+        )
+
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v1/notifications/webhooks/98T77365187292540
+                    [rel] => self
+                    [method] => GET
+                )
+
+            [1] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v1/notifications/webhooks/98T77365187292540
+                    [rel] => update
+                    [method] => PATCH
+                )
+
+            [2] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v1/notifications/webhooks/98T77365187292540
+                    [rel] => delete
+                    [method] => DELETE
+                )
+
+        )
+
+)
+
+2025-04-04T15:43:03+00:00 INFO Get access token Request: https://api.sandbox.paypal.com/v1/oauth2/token/
+2025-04-04T15:43:03+00:00 INFO Response Code: 200
+2025-04-04T15:43:03+00:00 INFO Response Message: OK
+2025-04-04T15:43:03+00:00 INFO Response Body: Array
+(
+    [scope] => https://uri.paypal.com/services/checkout/one-click-with-merchant-issued-token https://uri.paypal.com/services/payments/partnerfee https://uri.paypal.com/services/payments/futurepayments https://uri.paypal.com/services/invoicing https://uri.paypal.com/services/vault/payment-tokens/read https://uri.paypal.com/services/disputes/read-buyer https://uri.paypal.com/services/payments/realtimepayment https://uri.paypal.com/services/disputes/update-seller https://uri.paypal.com/services/payments/payment/authcapture openid https://uri.paypal.com/services/disputes/read-seller Braintree:Vault https://uri.paypal.com/services/payments/refund https://api.paypal.com/v1/vault/credit-card https://api.paypal.com/v1/payments/.* https://uri.paypal.com/services/reporting/search/read https://uri.paypal.com/services/payments/initiatepayment https://uri.paypal.com/payments/payouts https://uri.paypal.com/services/vault/payment-tokens/readwrite https://api.paypal.com/v1/vault/credit-card/.* https://uri.paypal.com/services/shipping/trackers/readwrite https://uri.paypal.com/services/subscriptions https://uri.paypal.com/services/applications/webhooks
+    [access_token] => A21AAJKTML7jLO-sprYYQurxgBpeYDB8K2y4t3PWPI0titOu0u974B0H87h6B02PhqAuqeNxk0LQshcuC5G4ty8Tqx2X6tDMg
+    [token_type] => Bearer
+    [app_id] => APP-91K71693J82624440
+    [expires_in] => 32365
+    [nonce] => 2025-04-04T15:42:27Z_dKgjssCQN1BuQPWvPLpXiMZHOxUnc-Zgoe41nfCHc4
+)
+
+2025-04-04T15:43:03+00:00 INFO seller_onboarding_status : https://api-m.sandbox.paypal.com/v1/customer/partners/K6QLN2LPGQRHL/merchant-integrations/UF228RJF3R8B6
+2025-04-04T15:43:04+00:00 INFO Response Code: 200
+2025-04-04T15:43:04+00:00 INFO Response Message: OK
+2025-04-04T15:43:04+00:00 INFO Response Body: {"merchant_id":"UF228RJF3R8B6","tracking_id":"sb-pa4c439481133@business.example.com","products":[{"name":"VIRTUAL_TERMINAL","status":"ACTIVE","vetting_status":"APPROVED"},{"name":"MOBILE_PAYMENT_ACCEPTANCE","status":"ACTIVE"},{"name":"WEBSITE_PAYMENTS_PRO_3_0","status":"ACTIVE","vetting_status":"APPROVED"},{"name":"EXPRESS_CHECKOUT","status":"ACTIVE"},{"name":"PPCP_CUSTOM","vetting_status":"SUBSCRIBED","capabilities":["CARD_PROCESSING_VIRTUAL_TERMINAL","COMMERCIAL_ENTITY","DEBIT_CARD_SWITCH","VENMO_PAY_PROCESSING","FRAUD_TOOL_ACCESS","AMEX_OPTBLUE","APPLE_PAY","CUSTOM_BANK_PROCESSING","FASTLANE_CHECKOUT","PAYPAL_WALLET_VAULTING_ADVANCED","CUSTOM_CARD_PROCESSING","GOOGLE_PAY"]},{"name":"PPCP_STANDARD","vetting_status":"SUBSCRIBED","capabilities":["SUBSCRIPTIONS","PAYPAL_CHECKOUT","SPEND_FROM_BALANCE","GUEST_CHECKOUT","BANK_MANAGED_WITHDRAWAL","PAYPAL_CHECKOUT_ALTERNATIVE_PAYMENT_METHODS","PAY_WITH_PAYPAL","SEND_INVOICE","QR_CODE","WITHDRAW_FUNDS_TO_DOMESTIC_BANK","INSTALLMENTS","ACCEPT_DONATIONS","PAYPAL_CHECKOUT_PAY_WITH_PAYPAL_CREDIT"]}],"capabilities":[{"name":"CARD_PROCESSING_VIRTUAL_TERMINAL","status":"ACTIVE"},{"name":"SPEND_FROM_BALANCE","status":"ACTIVE"},{"name":"VENMO_PAY_PROCESSING","status":"ACTIVE"},{"name":"BANK_MANAGED_WITHDRAWAL","status":"ACTIVE"},{"name":"WITHDRAW_FUNDS_TO_DOMESTIC_BANK","status":"ACTIVE"},{"name":"ACCEPT_DONATIONS","status":"ACTIVE"},{"name":"AMEX_OPTBLUE","status":"ACTIVE"},{"name":"APPLE_PAY","status":"ACTIVE"},{"name":"CUSTOM_BANK_PROCESSING","status":"ACTIVE"},{"name":"FASTLANE_CHECKOUT","status":"ACTIVE"},{"name":"PAYPAL_WALLET_VAULTING_ADVANCED","status":"ACTIVE"},{"name":"SUBSCRIPTIONS","status":"ACTIVE"},{"name":"PAYPAL_CHECKOUT","status":"ACTIVE"},{"name":"GUEST_CHECKOUT","status":"ACTIVE"},{"name":"FRAUD_TOOL_ACCESS","status":"ACTIVE"},{"name":"PAYPAL_CHECKOUT_ALTERNATIVE_PAYMENT_METHODS","status":"ACTIVE"},{"name":"SEND_INVOICE","status":"ACTIVE"},{"name":"PAY_WITH_PAYPAL","status":"ACTIVE"},{"name":"QR_CODE","status":"ACTIVE"},{"name":"CUSTOM_CARD_PROCESSING","status":"ACTIVE"},{"name":"COMMERCIAL_ENTITY","status":"ACTIVE"},{"name":"INSTALLMENTS","status":"ACTIVE"},{"name":"DEBIT_CARD_SWITCH","status":"ACTIVE"},{"name":"GOOGLE_PAY","status":"ACTIVE"},{"name":"PAYPAL_CHECKOUT_PAY_WITH_PAYPAL_CREDIT","status":"ACTIVE"}],"payments_receivable":true,"legal_name":"Test Store","primary_email":"sb-pa4c439481133@business.example.com","primary_email_confirmed":true,"country":"US"}
+2025-04-04T15:43:11+00:00 INFO generate_signup_link
+2025-04-04T15:43:12+00:00 INFO Response Code: 200
+2025-04-04T15:43:12+00:00 INFO Response Message: OK
+2025-04-04T15:43:12+00:00 INFO Response Body: {"body":"{\"links\":[{\"href\":\"https:\/\/api.paypal.com\/v2\/customer\/partner-referrals\/N2I2ZDNkMTktZmIxMy00YTZhLWIyMjEtYzA3MWRjMGUzMmZlRTYrRmtncmhMcWl4TGorcFloV21MZEVTaGhNeWoxUTdCRmZyNHVrWUFXQT12Mg==\",\"rel\":\"self\",\"method\":\"GET\",\"description\":\"Read Referral Data shared by the Caller.\"},{\"href\":\"https:\/\/www.paypal.com\/bizsignup\/partner\/entry?referralToken=N2I2ZDNkMTktZmIxMy00YTZhLWIyMjEtYzA3MWRjMGUzMmZlRTYrRmtncmhMcWl4TGorcFloV21MZEVTaGhNeWoxUTdCRmZyNHVrWUFXQT12Mg==\",\"rel\":\"action_url\",\"method\":\"GET\",\"description\":\"Target WEB REDIRECT URL for the next action. Customer should be redirected to this URL in the browser.\"}]}","headers":"HTTP\/1.1 201 Created\r\nConnection: keep-alive\r\nContent-Length: 611\r\nset-cookie: ts_c=vr%3D01786ea019664591388714ddfff8ed22%26vt%3D01786ea019664591388714ddfff8ed23; Domain=.paypal.com; Path=\/; Expires=Tue, 04 Apr 2028 09:09:29 GMT; Secure; SameSite=None\r\nset-cookie: l7_az=ccg13.slc; Path=\/; Domain=paypal.com; Expires=Fri, 04 Apr 2025 16:13:12 GMT; HttpOnly; Secure\r\naccess-control-expose-headers: Server-Timing\r\nserver-timing: traceparent;desc=\"00-0000000000000000000926f878ab4885-c4c544f8f86b475e-01\"\r\ncache-control: max-age=0, no-cache, no-store, must-revalidate\r\npaypal-debug-id: 926f878ab4885\r\ntraceparent: 00-0000000000000000000926f878ab4885-7152454579edf986-01\r\netag: W\/\"263-fEpTt3NL2HOI+36GXgWPM3NLHcM\"\r\ncontent-type: application\/json;charset=utf-8\r\nAccept-Ranges: bytes\r\nVia: 1.1 varnish, 1.1 varnish\r\nEdge-Control: max-age=0\r\nDate: Fri, 04 Apr 2025 15:43:12 GMT\r\nStrict-Transport-Security: max-age=63072000; includeSubDomains; preload\r\nX-Served-By: cache-lhr-egll1980080-LHR, cache-lhr-egll1980080-LHR, cache-lcy-eglc8600077-LCY\r\nX-Cache: MISS, MISS, MISS\r\nX-Cache-Hits: 0, 0, 0\r\nX-Timer: S1743781392.900482,VS0,VE638\r\nVary: Accept-Encoding\r\n\r\n","http_code":201,"result":"success"}
+2025-04-04T15:43:59+00:00 INFO generate_signup_link
+2025-04-04T15:44:01+00:00 INFO Response Code: 200
+2025-04-04T15:44:01+00:00 INFO Response Message: OK
+2025-04-04T15:44:01+00:00 INFO Response Body: {"body":"{\"links\":[{\"href\":\"https:\/\/api.paypal.com\/v2\/customer\/partner-referrals\/NjRlZmU5YjEtMDAwNy00ZWNmLWE4MGYtNmViNTcwZTI1MmFhYjA2TFd6VHJ4T1NVL1dLVlZYRGxyZjVBanBNc21KT3BrVGlHamJ2TndPND12Mg==\",\"rel\":\"self\",\"method\":\"GET\",\"description\":\"Read Referral Data shared by the Caller.\"},{\"href\":\"https:\/\/www.paypal.com\/bizsignup\/partner\/entry?referralToken=NjRlZmU5YjEtMDAwNy00ZWNmLWE4MGYtNmViNTcwZTI1MmFhYjA2TFd6VHJ4T1NVL1dLVlZYRGxyZjVBanBNc21KT3BrVGlHamJ2TndPND12Mg==\",\"rel\":\"action_url\",\"method\":\"GET\",\"description\":\"Target WEB REDIRECT URL for the next action. Customer should be redirected to this URL in the browser.\"}]}","headers":"HTTP\/1.1 201 Created\r\nConnection: keep-alive\r\nContent-Length: 611\r\nset-cookie: ts_c=vr%3D01792c041960aa4ed84b28a3fffe3e1e%26vt%3D01792c041960aa4ed84b28a3fffe3e1f; Domain=.paypal.com; Path=\/; Expires=Tue, 04 Apr 2028 09:10:17 GMT; Secure; SameSite=None\r\nset-cookie: l7_az=ccg14.slc; Path=\/; Domain=paypal.com; Expires=Fri, 04 Apr 2025 16:14:00 GMT; HttpOnly; Secure\r\naccess-control-expose-headers: Server-Timing\r\nserver-timing: traceparent;desc=\"00-0000000000000000000e591c17b93809-18d64c3abd69bf14-01\"\r\ncache-control: max-age=0, no-cache, no-store, must-revalidate\r\npaypal-debug-id: e591c17b93809\r\ntraceparent: 00-0000000000000000000e591c17b93809-755370d370d498a6-01\r\netag: W\/\"263-URnl1084paoSdd9tQ7M+TTsvUG4\"\r\ncontent-type: application\/json;charset=utf-8\r\nAccept-Ranges: bytes\r\nVia: 1.1 varnish, 1.1 varnish\r\nEdge-Control: max-age=0\r\nDate: Fri, 04 Apr 2025 15:44:01 GMT\r\nStrict-Transport-Security: max-age=63072000; includeSubDomains; preload\r\nX-Served-By: cache-lhr-egll1980095-LHR, cache-lhr-egll1980095-LHR, cache-lon420095-LON\r\nX-Cache: MISS, MISS, MISS\r\nX-Cache-Hits: 0, 0, 0\r\nX-Timer: S1743781440.379124,VS0,VE639\r\nVary: Accept-Encoding\r\n\r\n","http_code":201,"result":"success"}
+2025-04-04T15:44:36+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T15:44:36+00:00 INFO Response Code: 200
+2025-04-04T15:44:36+00:00 INFO Response Message: OK
+2025-04-04T15:44:36+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiZmIwMDM2NDM0NDM1YWVkZWU5NDJmNmUxN2MxZGY2OWViZGY4NDQyNjEzZWM1NDQ3NTUzNTQxZTE1MmEyZjk4M3xtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTU6NDQ6MzYuNDk0MjI1NDEwWiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUs0RE9xMmk2Yy1URmNUNW5rUXVVdmg2bFRvM2R3SHhJQjVIb0Q4WGEzZ0g1RVNZd0Z4SDA0TnFsWlNiRThQU0ZidTFQTlZPdkJOQ1NNMU5Vek9iSkRlRnNGUjhRIn19
+    [expires_in] => 3600
+)
+
+2025-04-04T15:44:48+00:00 INFO Payment Gateway for PayPal on WooCommerce: 9.0.26
+2025-04-04T15:44:48+00:00 INFO WooCommerce Version: 9.7.1
+2025-04-04T15:44:48+00:00 INFO Test Mode: Yes
+2025-04-04T15:44:48+00:00 INFO Action Name : Create order
+2025-04-04T15:44:48+00:00 INFO Order Request : Array
+(
+    [intent] => CAPTURE
+    [application_context] => Array
+        (
+            [brand_name] => Kham Fashion Clothes
+            [locale] => en-US
+            [landing_page] => NO_PREFERENCE
+            [shipping_preference] => NO_SHIPPING
+            [user_action] => CONTINUE
+            [return_url] => https://www.google.com
+            [cancel_url] => https://www.google.com
+        )
+
+    [payment_method] => Array
+        (
+            [payee_preferred] => UNRESTRICTED
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [reference_id] => wc_order_loqhNjgjKQgNt
+                    [amount] => Array
+                        (
+                            [currency_code] => USD
+                            [value] => 500.00
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                )
+
+                        )
+
+                    [invoice_id] => wc_order_loqhNjgjKQgNt
+                    [custom_id] => {"order_id":"wc_order_loqhNjgjKQgNt","order_key":"wc_order_loqhNjgjKQgNt"}
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Fashion T-Shirt
+                                    [category] => PHYSICAL_GOODS
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => Fone
+                    [surname] => Siharath
+                )
+
+            [email_address] => dev-email@wpengine.local
+            [phone] => Array
+                (
+                    [phone_number] => Array
+                        (
+                            [national_number] => 3099332379
+                        )
+
+                )
+
+            [address] => Array
+                (
+                    [address_line_1] => Capital 01001
+                    [address_line_2] => suite
+                    [admin_area_2] => Vientiane
+                    [admin_area_1] => VI
+                    [postal_code] => 01001
+                    [country_code] => LA
+                )
+
+        )
+
+)
+
+2025-04-04T15:44:50+00:00 INFO Response Code: 201
+2025-04-04T15:44:50+00:00 INFO Response Message: Created
+2025-04-04T15:44:50+00:00 INFO Response Body: Array
+(
+    [id] => 63G02883TV695621T
+    [intent] => CAPTURE
+    [status] => CREATED
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [reference_id] => wc_order_loqhNjgjKQgNt
+                    [amount] => Array
+                        (
+                            [currency_code] => USD
+                            [value] => 500.00
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                )
+
+                        )
+
+                    [payee] => Array
+                        (
+                            [email_address] => sb-pa4c439481133@business.example.com
+                            [merchant_id] => UF228RJF3R8B6
+                            [display_data] => Array
+                                (
+                                    [brand_name] => Kham Fashion Clothes
+                                )
+
+                        )
+
+                    [custom_id] => {"order_id":"wc_order_loqhNjgjKQgNt","order_key":"wc_order_loqhNjgjKQgNt"}
+                    [invoice_id] => wc_order_loqhNjgjKQgNt
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Fashion T-Shirt
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                    [quantity] => 1
+                                    [category] => PHYSICAL_GOODS
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => Fone
+                    [surname] => Siharath
+                )
+
+            [email_address] => dev-email@wpengine.local
+            [phone] => Array
+                (
+                    [phone_number] => Array
+                        (
+                            [national_number] => 3099332379
+                        )
+
+                )
+
+            [address] => Array
+                (
+                    [address_line_1] => Capital 01001
+                    [address_line_2] => suite
+                    [admin_area_2] => Vientiane
+                    [admin_area_1] => VI
+                    [postal_code] => 01001
+                    [country_code] => LA
+                )
+
+        )
+
+    [create_time] => 2025-04-04T15:44:49Z
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/63G02883TV695621T
+                    [rel] => self
+                    [method] => GET
+                )
+
+            [1] => Array
+                (
+                    [href] => https://www.sandbox.paypal.com/checkoutnow?token=63G02883TV695621T
+                    [rel] => approve
+                    [method] => GET
+                )
+
+            [2] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/63G02883TV695621T
+                    [rel] => update
+                    [method] => PATCH
+                )
+
+            [3] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/63G02883TV695621T/capture
+                    [rel] => capture
+                    [method] => POST
+                )
+
+        )
+
+)
+
+2025-04-04T15:45:16+00:00 INFO Payment Gateway for PayPal on WooCommerce: 9.0.26
+2025-04-04T15:45:16+00:00 INFO WooCommerce Version: 9.7.1
+2025-04-04T15:45:16+00:00 INFO Test Mode: Yes
+2025-04-04T15:45:16+00:00 INFO Action Name : Create order
+2025-04-04T15:45:16+00:00 INFO Order Request : Array
+(
+    [intent] => CAPTURE
+    [application_context] => Array
+        (
+            [brand_name] => Kham Fashion Clothes
+            [locale] => en-US
+            [landing_page] => NO_PREFERENCE
+            [shipping_preference] => NO_SHIPPING
+            [user_action] => PAY_NOW
+            [return_url] => https://www.google.com
+            [cancel_url] => https://www.google.com
+        )
+
+    [payment_method] => Array
+        (
+            [payee_preferred] => UNRESTRICTED
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [reference_id] => wc_order_U4T4DUUypCoZ7
+                    [amount] => Array
+                        (
+                            [currency_code] => USD
+                            [value] => 500.00
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                )
+
+                        )
+
+                    [soft_descriptor] => Kham Fashion Clothes
+                    [invoice_id] => WC-PPCP431
+                    [custom_id] => {"order_id":431,"order_key":"wc_order_Bm8KqsqsxSQ0U"}
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Fashion T-Shirt
+                                    [category] => PHYSICAL_GOODS
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [payer] => Array
+        (
+            [email_address] => dev-email@wpengine.local
+            [phone] => Array
+                (
+                    [phone_number] => Array
+                        (
+                            [national_number] => 3099332379
+                        )
+
+                )
+
+            [name] => Array
+                (
+                    [given_name] => Fone
+                    [surname] => Siharath
+                )
+
+            [address] => Array
+                (
+                    [address_line_1] => Capital 01001
+                    [address_line_2] => suite
+                    [admin_area_2] => Vientiane
+                    [admin_area_1] => VI
+                    [postal_code] => 01001
+                    [country_code] => LA
+                )
+
+        )
+
+)
+
+2025-04-04T15:45:18+00:00 INFO Response Code: 201
+2025-04-04T15:45:18+00:00 INFO Response Message: Created
+2025-04-04T15:45:18+00:00 INFO Response Body: Array
+(
+    [id] => 8LT35657FP742564R
+    [intent] => CAPTURE
+    [status] => CREATED
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [reference_id] => wc_order_U4T4DUUypCoZ7
+                    [amount] => Array
+                        (
+                            [currency_code] => USD
+                            [value] => 500.00
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                )
+
+                        )
+
+                    [payee] => Array
+                        (
+                            [email_address] => sb-pa4c439481133@business.example.com
+                            [merchant_id] => UF228RJF3R8B6
+                            [display_data] => Array
+                                (
+                                    [brand_name] => Kham Fashion Clothes
+                                )
+
+                        )
+
+                    [custom_id] => {"order_id":431,"order_key":"wc_order_Bm8KqsqsxSQ0U"}
+                    [invoice_id] => WC-PPCP431
+                    [soft_descriptor] => Kham Fashion Clothes
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Fashion T-Shirt
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                    [quantity] => 1
+                                    [category] => PHYSICAL_GOODS
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => Fone
+                    [surname] => Siharath
+                )
+
+            [email_address] => dev-email@wpengine.local
+            [phone] => Array
+                (
+                    [phone_number] => Array
+                        (
+                            [national_number] => 3099332379
+                        )
+
+                )
+
+            [address] => Array
+                (
+                    [address_line_1] => Capital 01001
+                    [address_line_2] => suite
+                    [admin_area_2] => Vientiane
+                    [admin_area_1] => VI
+                    [postal_code] => 01001
+                    [country_code] => LA
+                )
+
+        )
+
+    [create_time] => 2025-04-04T15:45:18Z
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/8LT35657FP742564R
+                    [rel] => self
+                    [method] => GET
+                )
+
+            [1] => Array
+                (
+                    [href] => https://www.sandbox.paypal.com/checkoutnow?token=8LT35657FP742564R
+                    [rel] => approve
+                    [method] => GET
+                )
+
+            [2] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/8LT35657FP742564R
+                    [rel] => update
+                    [method] => PATCH
+                )
+
+            [3] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/8LT35657FP742564R/capture
+                    [rel] => capture
+                    [method] => POST
+                )
+
+        )
+
+)
+
+2025-04-04T15:55:18+00:00 INFO Payment Gateway for PayPal on WooCommerce: 9.0.26
+2025-04-04T15:55:18+00:00 INFO WooCommerce Version: 9.7.1
+2025-04-04T15:55:18+00:00 INFO Test Mode: Yes
+2025-04-04T15:55:18+00:00 INFO Action Name : Create order
+2025-04-04T15:55:18+00:00 INFO Order Request : Array
+(
+    [intent] => CAPTURE
+    [application_context] => Array
+        (
+            [brand_name] => Kham Fashion Clothes
+            [locale] => en-US
+            [landing_page] => NO_PREFERENCE
+            [shipping_preference] => NO_SHIPPING
+            [user_action] => PAY_NOW
+            [return_url] => https://www.google.com
+            [cancel_url] => https://www.google.com
+        )
+
+    [payment_method] => Array
+        (
+            [payee_preferred] => UNRESTRICTED
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [reference_id] => wc_order_4NX3kpBsQjdYC
+                    [amount] => Array
+                        (
+                            [currency_code] => USD
+                            [value] => 500.00
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                )
+
+                        )
+
+                    [soft_descriptor] => Kham Fashion Clothes
+                    [invoice_id] => WC-PPCP431
+                    [custom_id] => {"order_id":431,"order_key":"wc_order_Bm8KqsqsxSQ0U"}
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Fashion T-Shirt
+                                    [category] => PHYSICAL_GOODS
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [payer] => Array
+        (
+            [email_address] => dev-email@wpengine.local
+            [phone] => Array
+                (
+                    [phone_number] => Array
+                        (
+                            [national_number] => 3099332379
+                        )
+
+                )
+
+            [name] => Array
+                (
+                    [given_name] => Fone
+                    [surname] => Siharath
+                )
+
+            [address] => Array
+                (
+                    [address_line_1] => Capital 01001
+                    [address_line_2] => suite
+                    [admin_area_2] => Vientiane
+                    [admin_area_1] => VI
+                    [postal_code] => 01001
+                    [country_code] => LA
+                )
+
+        )
+
+)
+
+2025-04-04T15:55:20+00:00 INFO Response Code: 201
+2025-04-04T15:55:20+00:00 INFO Response Message: Created
+2025-04-04T15:55:20+00:00 INFO Response Body: Array
+(
+    [id] => 4EG77860VB038062V
+    [intent] => CAPTURE
+    [status] => CREATED
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [reference_id] => wc_order_4NX3kpBsQjdYC
+                    [amount] => Array
+                        (
+                            [currency_code] => USD
+                            [value] => 500.00
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                )
+
+                        )
+
+                    [payee] => Array
+                        (
+                            [email_address] => sb-pa4c439481133@business.example.com
+                            [merchant_id] => UF228RJF3R8B6
+                            [display_data] => Array
+                                (
+                                    [brand_name] => Kham Fashion Clothes
+                                )
+
+                        )
+
+                    [custom_id] => {"order_id":431,"order_key":"wc_order_Bm8KqsqsxSQ0U"}
+                    [invoice_id] => WC-PPCP431
+                    [soft_descriptor] => Kham Fashion Clothes
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Fashion T-Shirt
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                    [quantity] => 1
+                                    [category] => PHYSICAL_GOODS
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => Fone
+                    [surname] => Siharath
+                )
+
+            [email_address] => dev-email@wpengine.local
+            [phone] => Array
+                (
+                    [phone_number] => Array
+                        (
+                            [national_number] => 3099332379
+                        )
+
+                )
+
+            [address] => Array
+                (
+                    [address_line_1] => Capital 01001
+                    [address_line_2] => suite
+                    [admin_area_2] => Vientiane
+                    [admin_area_1] => VI
+                    [postal_code] => 01001
+                    [country_code] => LA
+                )
+
+        )
+
+    [create_time] => 2025-04-04T15:55:20Z
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4EG77860VB038062V
+                    [rel] => self
+                    [method] => GET
+                )
+
+            [1] => Array
+                (
+                    [href] => https://www.sandbox.paypal.com/checkoutnow?token=4EG77860VB038062V
+                    [rel] => approve
+                    [method] => GET
+                )
+
+            [2] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4EG77860VB038062V
+                    [rel] => update
+                    [method] => PATCH
+                )
+
+            [3] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4EG77860VB038062V/capture
+                    [rel] => capture
+                    [method] => POST
+                )
+
+        )
+
+)
+
+2025-04-04T15:55:50+00:00 INFO Payment Gateway for PayPal on WooCommerce: 9.0.26
+2025-04-04T15:55:50+00:00 INFO WooCommerce Version: 9.7.1
+2025-04-04T15:55:50+00:00 INFO Test Mode: Yes
+2025-04-04T15:55:50+00:00 INFO Action Name : Get Order Details
+2025-04-04T15:55:50+00:00 INFO Endpoint: https://api.sandbox.paypal.com/v2/checkout/orders/4EG77860VB038062V
+2025-04-04T15:55:51+00:00 INFO Response Code: 200
+2025-04-04T15:55:51+00:00 INFO Response Message: OK
+2025-04-04T15:55:51+00:00 INFO Response Body: stdClass Object
+(
+    [id] => 4EG77860VB038062V
+    [intent] => CAPTURE
+    [status] => APPROVED
+    [payment_source] => stdClass Object
+        (
+            [paypal] => stdClass Object
+                (
+                    [email_address] => sb-2lizm39525907@personal.example.com
+                    [account_id] => NMAMDXMMPGAV8
+                    [account_status] => VERIFIED
+                    [name] => stdClass Object
+                        (
+                            [given_name] => John
+                            [surname] => Doe
+                        )
+
+                    [address] => stdClass Object
+                        (
+                            [address_line_1] => Capital 01001
+                            [address_line_2] => suite
+                            [admin_area_2] => Vientiane
+                            [admin_area_1] => VI
+                            [postal_code] => 01001
+                            [country_code] => LA
+                        )
+
+                )
+
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [reference_id] => wc_order_4NX3kpBsQjdYC
+                    [amount] => stdClass Object
+                        (
+                            [currency_code] => USD
+                            [value] => 500.00
+                            [breakdown] => stdClass Object
+                                (
+                                    [item_total] => stdClass Object
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                )
+
+                        )
+
+                    [payee] => stdClass Object
+                        (
+                            [email_address] => sb-pa4c439481133@business.example.com
+                            [merchant_id] => UF228RJF3R8B6
+                            [display_data] => stdClass Object
+                                (
+                                    [brand_name] => Kham Fashion Clothes
+                                )
+
+                        )
+
+                    [custom_id] => {"order_id":431,"order_key":"wc_order_Bm8KqsqsxSQ0U"}
+                    [invoice_id] => WC-PPCP431
+                    [soft_descriptor] => Kham Fashion Clothes
+                    [items] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [name] => Fashion T-Shirt
+                                    [unit_amount] => stdClass Object
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                    [quantity] => 1
+                                    [category] => PHYSICAL_GOODS
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [payer] => stdClass Object
+        (
+            [name] => stdClass Object
+                (
+                    [given_name] => John
+                    [surname] => Doe
+                )
+
+            [email_address] => sb-2lizm39525907@personal.example.com
+            [payer_id] => NMAMDXMMPGAV8
+            [address] => stdClass Object
+                (
+                    [address_line_1] => Capital 01001
+                    [address_line_2] => suite
+                    [admin_area_2] => Vientiane
+                    [admin_area_1] => VI
+                    [postal_code] => 01001
+                    [country_code] => LA
+                )
+
+        )
+
+    [create_time] => 2025-04-04T15:55:20Z
+    [links] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4EG77860VB038062V
+                    [rel] => self
+                    [method] => GET
+                )
+
+            [1] => stdClass Object
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4EG77860VB038062V
+                    [rel] => update
+                    [method] => PATCH
+                )
+
+            [2] => stdClass Object
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4EG77860VB038062V/capture
+                    [rel] => capture
+                    [method] => POST
+                )
+
+        )
+
+)
+
+2025-04-04T15:55:51+00:00 INFO Payment Gateway for PayPal on WooCommerce: 9.0.26
+2025-04-04T15:55:51+00:00 INFO WooCommerce Version: 9.7.1
+2025-04-04T15:55:51+00:00 INFO Test Mode: Yes
+2025-04-04T15:55:51+00:00 INFO Action Name : Capture payment for order
+2025-04-04T15:55:51+00:00 INFO Request : https://api.sandbox.paypal.com/v2/checkout/orders/4EG77860VB038062V/capture
+2025-04-04T15:55:53+00:00 INFO Response : Array
+(
+    [id] => 4EG77860VB038062V
+    [intent] => CAPTURE
+    [status] => COMPLETED
+    [payment_source] => Array
+        (
+            [paypal] => Array
+                (
+                    [email_address] => sb-2lizm39525907@personal.example.com
+                    [account_id] => NMAMDXMMPGAV8
+                    [account_status] => VERIFIED
+                    [name] => Array
+                        (
+                            [given_name] => John
+                            [surname] => Doe
+                        )
+
+                    [address] => Array
+                        (
+                            [address_line_1] => Capital 01001
+                            [address_line_2] => suite
+                            [admin_area_2] => Vientiane
+                            [admin_area_1] => VI
+                            [postal_code] => 01001
+                            [country_code] => LA
+                        )
+
+                )
+
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [reference_id] => wc_order_4NX3kpBsQjdYC
+                    [amount] => Array
+                        (
+                            [currency_code] => USD
+                            [value] => 500.00
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0.00
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0.00
+                                        )
+
+                                    [insurance] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0.00
+                                        )
+
+                                    [shipping_discount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [payee] => Array
+                        (
+                            [email_address] => sb-pa4c439481133@business.example.com
+                            [merchant_id] => UF228RJF3R8B6
+                            [display_data] => Array
+                                (
+                                    [brand_name] => Kham Fashion Clothes
+                                )
+
+                        )
+
+                    [description] => Fashion T-Shirt
+                    [custom_id] => {"order_id":431,"order_key":"wc_order_Bm8KqsqsxSQ0U"}
+                    [invoice_id] => WC-PPCP431
+                    [soft_descriptor] => PAYPAL *TEST STORE KHA
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Fashion T-Shirt
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 500.00
+                                        )
+
+                                    [tax] => Array
+                                        (
+                                            [currency_code] => USD
+                                            [value] => 0.00
+                                        )
+
+                                    [quantity] => 1
+                                    [category] => PHYSICAL_GOODS
+                                )
+
+                        )
+
+                    [payments] => Array
+                        (
+                            [captures] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 46U30869GK7699003
+                                            [status] => COMPLETED
+                                            [amount] => Array
+                                                (
+                                                    [currency_code] => USD
+                                                    [value] => 500.00
+                                                )
+
+                                            [final_capture] => 1
+                                            [seller_protection] => Array
+                                                (
+                                                    [status] => ELIGIBLE
+                                                    [dispute_categories] => Array
+                                                        (
+                                                            [0] => ITEM_NOT_RECEIVED
+                                                            [1] => UNAUTHORIZED_TRANSACTION
+                                                        )
+
+                                                )
+
+                                            [seller_receivable_breakdown] => Array
+                                                (
+                                                    [gross_amount] => Array
+                                                        (
+                                                            [currency_code] => USD
+                                                            [value] => 500.00
+                                                        )
+
+                                                    [paypal_fee] => Array
+                                                        (
+                                                            [currency_code] => USD
+                                                            [value] => 17.94
+                                                        )
+
+                                                    [net_amount] => Array
+                                                        (
+                                                            [currency_code] => USD
+                                                            [value] => 482.06
+                                                        )
+
+                                                )
+
+                                            [invoice_id] => WC-PPCP431
+                                            [custom_id] => {"order_id":431,"order_key":"wc_order_Bm8KqsqsxSQ0U"}
+                                            [links] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [href] => https://api.sandbox.paypal.com/v2/payments/captures/46U30869GK7699003
+                                                            [rel] => self
+                                                            [method] => GET
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [href] => https://api.sandbox.paypal.com/v2/payments/captures/46U30869GK7699003/refund
+                                                            [rel] => refund
+                                                            [method] => POST
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4EG77860VB038062V
+                                                            [rel] => up
+                                                            [method] => GET
+                                                        )
+
+                                                )
+
+                                            [create_time] => 2025-04-04T15:55:52Z
+                                            [update_time] => 2025-04-04T15:55:52Z
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => John
+                    [surname] => Doe
+                )
+
+            [email_address] => sb-2lizm39525907@personal.example.com
+            [payer_id] => NMAMDXMMPGAV8
+            [address] => Array
+                (
+                    [address_line_1] => Capital 01001
+                    [address_line_2] => suite
+                    [admin_area_2] => Vientiane
+                    [admin_area_1] => VI
+                    [postal_code] => 01001
+                    [country_code] => LA
+                )
+
+        )
+
+    [create_time] => 2025-04-04T15:55:20Z
+    [update_time] => 2025-04-04T15:55:52Z
+    [links] => Array
+        (
+            [0] => Array
+                (
+                    [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4EG77860VB038062V
+                    [rel] => self
+                    [method] => GET
+                )
+
+        )
+
+)
+
+2025-04-04T15:56:01+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T15:56:01+00:00 INFO Response Code: 200
+2025-04-04T15:56:01+00:00 INFO Response Message: OK
+2025-04-04T15:56:01+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiNDQwOTg3NTY1M2FhMjQ3OTc5NWFhMTVlNTRkOWM4YzA0ZmViMWY1MGRmNDkwYTNmYmY5M2Q2ODExN2MyNzJlNnxtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTU6NTY6MDAuNzM1NzIyODU2WiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUs0bW55dHE0bF9WZWlxa1h6TFctSmxHNWp4Z2VTcjRxWENPYzA3ZnBkV0dxTFZQbWNkWmZrWTE4MjllV1ZlcTVxM0tOdHc3RmQ4eWZLc2Q4SmQ1UUtwd1k4UWZ3In19
+    [expires_in] => 3600
+)
+
+2025-04-04T16:03:41+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T16:03:41+00:00 INFO Response Code: 200
+2025-04-04T16:03:41+00:00 INFO Response Message: OK
+2025-04-04T16:03:41+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiMmY0Mzg3YTAyODE0M2M1Nzk5MmM5MmIzMjRlMjI1NGFiMDgxMDA1OWVmYzU0ZTBmZjU3NGIwZmI0MWY3OWIwZnxtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTY6MDM6NDAuNzkxNTk3NjM4WiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUpaMDEzM3N2aGg5Tm93dFJsWmtReGxmRUxwTXhHaWRmaHY4cDRvWEdWR1JUbFFiRzBjdUtuOHF6SEtMN2xSaE9HSllMT2UwenBWSjJZNFJLdkdEbXFudHZZaUxnIn19
+    [expires_in] => 3600
+)
+
+2025-04-04T16:05:54+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T16:05:54+00:00 INFO Response Code: 200
+2025-04-04T16:05:54+00:00 INFO Response Message: OK
+2025-04-04T16:05:54+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiNTI3Yzc4YjNmZjk2YmE1YjM1MGNhZWQ1ZmQ5MzlhNWM1MmMxNjFmYTZhNWQwODI1NjIzYjM1YzNlNjdiZWI3ZnxtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTY6MDU6NTQuMzM4MzQ0NjU0WiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUlya215N2hOaWprc28tUXMtRjN4RzFRTG9ZcXpETU9jbkpuRDA1MzlHZGtLRzMwLS1rS2djTFRMa2dTaFVBcDMzTlJ1cDhjcjR6blVSODY3RUlCT2NzYWlKaDJ3In19
+    [expires_in] => 3600
+)
+
+2025-04-04T16:10:05+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T16:10:05+00:00 INFO Response Code: 200
+2025-04-04T16:10:05+00:00 INFO Response Message: OK
+2025-04-04T16:10:05+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiODIzNTJkMGYwZjc4MmVjZGMxNjQ5MDQ0MmRiMjVjNjMyMmE2NDE4NTQ3ZTYyY2NiZjNjZjk1ODliMmQzYjIyN3xtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTY6MTA6MDQuOTUxMzc3MjkxWiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUlCOHNIcWttMmxucUV5WVNGRGVoRWZzWkFPV3B1bVphaWdJNTRlY3RNamdWa1RYT09WZ2NZNFdReDN3VWtiXzJ0aHdOV3hPYW1qMGg3NWdvWTRIQ3I2S0NlRHdRIn19
+    [expires_in] => 3600
+)
+
+2025-04-04T16:11:00+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T16:11:00+00:00 INFO Response Code: 200
+2025-04-04T16:11:00+00:00 INFO Response Message: OK
+2025-04-04T16:11:00+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiYTRjOTJmOGY4YmM1NzNiMTBjMWM2Zjc4MzAxMDgyOWZjNjYzZmZmOTMyZDYxMzk1OWMwZTgyZTA4MzNhOGEzN3xtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTY6MTE6MDAuNDUxMTY4OTA0WiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUtKc1VKU3QxWmdhRDk2SHBXVVprZEUxU1E4c2ZkRXdTVEE3VUI0VUNzM3VmRTFKYmpIYVBta29RUm9mNFczM19IeXhNMk8xUFlSaFB2bURlOVlpSGhDd2hONXlnIn19
+    [expires_in] => 3600
+)
+
+2025-04-04T16:11:35+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T16:11:35+00:00 INFO Response Code: 200
+2025-04-04T16:11:35+00:00 INFO Response Message: OK
+2025-04-04T16:11:35+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiZmYzNTA4MTZiYTAzNzY4Yzg1OTZkMDEwNGYwMWJlNzc0YTkyMTg3N2IzYjY0MzMzNDg0ODgxNjEwNTcwYWM5NHxtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTY6MTE6MzUuMzI2NDU4MTE1WiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUpZaUxYSGhLRGE1RjhFUmFFZk13MXZKbC1LY2tyMERzWDJOTW9DRTZDNG5WLTltbmNWcWxpa0MwaFhWX053NW5kTVZWZnNsdWluNWk3NDd5alYwWnRXd2lkQmN3In19
+    [expires_in] => 3600
+)
+
+2025-04-04T16:12:12+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T16:12:12+00:00 INFO Response Code: 200
+2025-04-04T16:12:12+00:00 INFO Response Message: OK
+2025-04-04T16:12:12+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiMzUzZDJmZTU4ODVhZTNkYjA3NGU3YjI1ZDc5NmI3YWVkZTcxMDFkMTkwNDgyYTM5YzBjOTQ0MmQxYTRmMmE4NXxtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTY6MTI6MTEuNzk1MTYyMTgwWiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUplNXlZUXNlZEIxWGJqVTB1NmF6NkppTW5ORUwxR2dJUnAtNWhBY3Itby03aTR2VnE4eVVmaWpYMHNxdHplUkFIcDMtM3VadXF1akRQSlN0dmd4Ml9qLXVjU0F3In19
+    [expires_in] => 3600
+)
+
+2025-04-04T16:13:04+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T16:13:04+00:00 INFO Response Code: 200
+2025-04-04T16:13:04+00:00 INFO Response Message: OK
+2025-04-04T16:13:04+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiOTVlNzRlYzc5Nzk3NGY3YjFlMmYzODc0OWE5NmIzM2NiMTkwODdiMTNjMjJjOGEzM2QzMTdhZGVmZjNiMGIwOHxtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTY6MTM6MDMuODg5OTEyNjA3WiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUpHNlZHMWtUc0lGVXRMempiNTZRczJUNlhrbDBCSE95ZVlWSUVMOVhuTUstNFo1UVB4dW9Kd2ZFQVpXYmw3Q3U2MnZ1SkRHcUFsazltZlJRSzBwN0tubjZ2Qm9nIn19
+    [expires_in] => 3600
+)
+
+2025-04-04T16:17:14+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T16:17:14+00:00 INFO Response Code: 200
+2025-04-04T16:17:14+00:00 INFO Response Message: OK
+2025-04-04T16:17:14+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiMTJmM2Y0MDdiNTY3YTFlNDlhYzUwOTYxNWQzM2ViMDkwZWFmOGIxNmE1ODVkNGVjZTBhOTg5NGJiNDZhMTllZXxtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTY6MTc6MTQuNDk1NTgwODI3WiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUlpWTdxdWprallhTUtfaGZHMzhmRlpQTjhqc1pHbzl2ODJyZTBBaHNkSnBFSlNQRGxrRUREMEUwYTRlRzZud3pfdzQzSmVRak5IdVh1VndwZWd4a1RQeGctQlJBIn19
+    [expires_in] => 3600
+)
+
+2025-04-04T16:18:55+00:00 INFO Get Genrate token Requesthttps://api.sandbox.paypal.com/v1/identity/generate-token
+2025-04-04T16:18:55+00:00 INFO Response Code: 200
+2025-04-04T16:18:55+00:00 INFO Response Message: OK
+2025-04-04T16:18:55+00:00 INFO Response Body: Array
+(
+    [client_token] => eyJicmFpbnRyZWUiOnsiYXV0aG9yaXphdGlvbkZpbmdlcnByaW50IjoiYmJkNDE0YmFlNjhhNTA5NzRmY2Q0Mzc4MGQzNzRiNDg1MTVmYzE0MzMzNjczYzI1OWFjMzk5NzhkZGM3ZTA5NnxtZXJjaGFudF9pZD1yd3dua3FnMnhnNTZobTJuJnB1YmxpY19rZXk9NjNrdm4zN3Z0MjlxYjRkZiZjcmVhdGVkX2F0PTIwMjUtMDQtMDRUMTY6MTg6NTQuODI2NjA5NDMzWiIsInZlcnNpb24iOiIzLXBheXBhbCJ9LCJwYXlwYWwiOnsiaWRUb2tlbiI6bnVsbCwiYWNjZXNzVG9rZW4iOiJBMjFBQUxTSEN0X293MTdlYl90S2FYeTl0TTlBTTF4MEZaaHRacllEWnNJTDFzcTNRd2JQcEFjcWFfb00yZUk3by0xMXdLU2E2NXJ5S3hIT0ctdWtELVVaeXlLbjVhS0NnIn19
+    [expires_in] => 3600
+)
+

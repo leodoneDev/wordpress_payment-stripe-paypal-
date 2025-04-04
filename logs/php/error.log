@@ -25,3 +25,5 @@
 [04-Apr-2025 15:12:23 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-content\plugins\surecart\packages\blocks-next\build\blocks\cart\view.php on line 6
 [04-Apr-2025 15:17:15 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-content\plugins\surecart\packages\blocks-next\build\blocks\cart\controller.php on line 3
 [04-Apr-2025 15:17:15 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-content\plugins\surecart\packages\blocks-next\build\blocks\cart\view.php on line 6
+[04-Apr-2025 15:56:04 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-content\plugins\surecart\packages\blocks-next\build\blocks\cart\controller.php on line 3
+[04-Apr-2025 15:56:04 UTC] PHP Warning:  Attempt to read property "ID" on null in C:\Users\smart\Local Sites\khams-payment\app\public\wp-content\plugins\surecart\packages\blocks-next\build\blocks\cart\view.php on line 6
