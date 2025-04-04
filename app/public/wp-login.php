@@ -21,7 +21,7 @@ if ( force_ssl_admin() && ! is_ssl() ) {
 		exit;
 	}
 }
-12312412123123131231231231
+1231241212312313123123
 /**
  * Outputs the login page header.
  *
